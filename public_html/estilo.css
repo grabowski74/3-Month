@@ -1,0 +1,130 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+	font-size: 17px;
+	background: url('imagensPsoft/grey-washed-wall.png'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#000,#7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+#navegacao {
+	background: #fff;
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.area {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1400px) {
+	.area {
+		width: 800px;
+		margin: 0 auto;
+	}
+}
+
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#area-principal {
+	width: 720px;
+	margin: 55px auto 10px auto;
+}
+
+#logo {
+	float: left;
+	padding-top: 5px;
+	
+}
+
+#menu {
+	float: right;
+	padding: 12px;
+	margin-right: -12px;
+}
+
+#postagem {
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #b9c941;
+}
+
+/****************************************************
+***********************Formatação do menu************/
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: #7c26f8;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #838383;
+}
+
+/*Links hover*/
+a:hover {
+	color: #fff;
+	background: #7c26f8;
+}
+
+/*Links active*/
+a:active {
+	color: #535353;
+}
+
+
+/*Classes*/
+.purple {
+	color: #7c26f8;
+}
+
+.data-postagem {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-postagem{
+	float: left;
+	margin:0 10px 5px 0;
+}
+
+.postado {
+	border-left: 5px solid #d8d8d8;
+	padding-left: 5px;
+	display: block;
+	margin-top: 10px;
+}
+
